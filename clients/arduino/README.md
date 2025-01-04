@@ -10,3 +10,14 @@ Development platforms for those have been:
   - ESP32-S3
   - ST7789V2 IPS LCD (240x280)
 
+## User API
+
+Configuration parameters should be limited to:
+- WifiSsid
+- WifiPassword
+- ServerHostname
+- UniqueId (can instead be derived from the client's mac address)
+
+The library provides the class `FloatingSketchesClient` that holds all data and methods for the user.
+
+
